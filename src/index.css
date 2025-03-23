@@ -1,0 +1,50 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global font and background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #001f3f; /* Navy blue background */
+  color: #f0f8ff; /* Alice blue text */
+  line-height: 1.6;
+}
+
+/* Utility classes */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1e90ff; /* Dodger blue */
+}
+
+a:hover {
+  color: #4682b4; /* Steel blue */
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff; /* Dodger blue */
+  color: white;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #4682b4; /* Steel blue */
+}
