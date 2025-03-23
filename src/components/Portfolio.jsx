@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <section>
       <h2>Portfolio</h2>
-      <p>Showcase your work with images and links to GitHub or live projects.</p>
+      <p>Current projects can be found in github link.</p>
     </section>
   );
 }
